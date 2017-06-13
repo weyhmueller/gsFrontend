@@ -45,6 +45,7 @@
 					<li><a href="{felink controller="contract" action="index"}"{if $controller == 'contract'} class="active"{/if}>Positionen</a></li>
 					<li><a href="{felink controller="document" action="index"}"{if $controller == 'document'} class="active"{/if}>Dokumente</a></li>
 					<li><a href="{felink controller="contact" action="index"}"{if $controller == 'contact'} class="active"{/if}>Kontakt</a></li>
+					<li><a href="{felink controller="administration" action="index"}"{if $controller == 'administration'} class="active"{/if}>Administration</a></li>
 					<li><a href="{felink controller="logout" action="index"}" class="highlight">Logout</a></li>
 				{else}
 					<li><a href="{felink controller="index" action="index"}"{if $controller == 'index'} class="active"{/if}>Login</a></li>		
